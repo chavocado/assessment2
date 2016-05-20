@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ZOO</title>
+    <script src="./vendors/jquery.min.js"></script>
+    <script src="./scripts/clientapp.js"></script>
+  </head>
+  <body>
+    <h1>CHAVO's WACKY ANIMAL EMPORIUM Zoo</h1>
+    <form id="zooForm">
+      <label for="animal_type">What Kind of Animal is being added?</label>
+      <input type="text" id="animal_type" name="animal_type" />
+
+      <label for="amount">Random Amount</label>
+      <input type="radio" id="amount" name="amount" checked />
+
+      <button id="zooSubmit">Submit</button>
+    </form>
+    <section class="container">
+    <h1>Luxury Humane Animal Storage</h1>
+    <div id="zooList"></div>
+    </section>
+  </body>
+</html>

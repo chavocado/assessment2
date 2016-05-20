@@ -1,0 +1,5 @@
+CREATE TABLE zoo (
+	id SERIAL PRIMARY KEY,
+	animal_type character varying(80),
+	amount integer
+);
